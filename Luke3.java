@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import hjelp.SieveOfEratosthenes;
 public class Luke3{
     //Finn alle primtal til og med limit/2^23
     //loop gjennom 2^24 til limit

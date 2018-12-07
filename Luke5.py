@@ -10,17 +10,6 @@ lista = [1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1]
 str_lista = "123456787654321"
 svar = 42
 
-
-'''def teller(oppsamlet, index):
-    if index == len(lista):
-        return [oppsamlet]
-    else:
-        nestepluss = teller(oppsamlet + lista[index],index + 1)
-        nesteminus = teller(oppsamlet - lista[index],index +1)
-        #nestesamlet =
-        return nestepluss.extend(nesteminus)
-        '''
-
 def generer_ny_liste(gammel_liste,indeks):
     ny_liste = []
     for elem in gammel_liste:
